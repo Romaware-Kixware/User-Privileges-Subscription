@@ -3,7 +3,7 @@
 
 Plugin Name: User Privileges Subscription
 Plugin URI: https://peterwhart.com/
-Version: 1.0
+Version: 1.0.1
 Description: User Privileges Subscription allow Editor role user to admin (acces, edit, delete) messages for form subscription in Elementor
 Author: Flavius
 Author URI: https://peterwhart.com/
@@ -11,16 +11,14 @@ License: MIT
 License URI: https://peterwhart.com/
 Text Domain: peterwhart.com
 Domain Path: https://peterwhart.com/
-
 */
  
 
 
-
 /**
 licence to Flavius G
-
 */
+
 // this is where to add the snippets below
 
 
@@ -30,7 +28,7 @@ if (! defined ('ABSPATH')){
 }
 
 
-// si de aici scriu o functie care i da drept de citire la un userrole editor in elemntor submission
+// si de aici scriu o functie care i da drept de citire la un userrole 'Editor' in Elementor PRO - submission
 
 if (!class_exists('MainClassUserEditor'))
 {
